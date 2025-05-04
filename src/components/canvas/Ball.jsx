@@ -35,10 +35,6 @@ const Ball = ({ imgUrl }) => {
   )
 }
 
-const BallWrapper = ({ imgUrl }) => {
-  return <Ball imgUrl={imgUrl} />
-}
-
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
@@ -47,7 +43,7 @@ const BallCanvas = ({ icon }) => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
-        <BallWrapper imgUrl={icon} />
+        <Ball imgUrl={icon} />
         <Preload all />
       </Suspense>
     </Canvas>
