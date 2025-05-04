@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
 import { fadeIn, textVariant } from '../utils/motion'
-import { Tilt } from 'react-tilt'
 
 const About = () => {
   return (
@@ -28,19 +27,10 @@ const About = () => {
         <motion.div
           variants={fadeIn('right', 'spring', 0.5, 0.75)}
           className='w-full sm:w-[250px] min-w-[250px]'
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
-          <div
-            className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-            style={{
-              transformStyle: 'preserve-3d',
-              transform: 'perspective(1000px)',
-              transition: 'transform 0.2s ease-out',
-              cursor: 'pointer',
-              '&:hover': {
-                transform: 'perspective(1000px) rotateX(5deg) rotateY(5deg)',
-              },
-            }}
-          >
+          <div className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
             <div className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
               <img
                 src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
@@ -57,19 +47,10 @@ const About = () => {
         <motion.div
           variants={fadeIn('left', 'spring', 0.5, 0.75)}
           className='w-full sm:w-[250px] min-w-[250px]'
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
-          <div
-            className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-            style={{
-              transformStyle: 'preserve-3d',
-              transform: 'perspective(1000px)',
-              transition: 'transform 0.2s ease-out',
-              cursor: 'pointer',
-              '&:hover': {
-                transform: 'perspective(1000px) rotateX(5deg) rotateY(5deg)',
-              },
-            }}
-          >
+          <div className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
             <div className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
               <img
                 src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'
