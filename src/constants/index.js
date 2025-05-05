@@ -43,7 +43,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
   },
   {
     id: "contact",
@@ -242,6 +242,7 @@ const projects = [
     ],
     image: court,
     source_code_link: "https://github.com/Anushka8178/AI-Court",
+
   },
   {
     name: "SkyTrackr - React Weather Widget",
@@ -262,6 +263,7 @@ const projects = [
     ],
     image: weather,
     source_code_link: "https://github.com/Anushka8178/MaterialUI-Weather_Widget",
+    demo_link: "https://material-ui-weather-widget-25td.vercel.app/"
   },
   {
     name: "UrbanFlow: Streamlining City Life with Technology",
@@ -289,7 +291,7 @@ const projects = [
       },
     ],
     image: city,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Anushka8178/UrbanFlow",
   },
   {
     name: "Research Paper on Relation Extraction",
@@ -305,7 +307,7 @@ const projects = [
       },
     ],
     image: nlp,
-    source_code_link: "https://github.com/Anushka8178/Research-Paper-on-Relation-Extraction",
+    
   },
 ];
 
