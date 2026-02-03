@@ -216,7 +216,7 @@ const projects = [
       },
     ],
     image: wanderlust,
-    demo_link: "https://wanderlust-full-stack-website.onrender.com/",
+    demo_link: "https://wanderlust-full-stack-website-8.onrender.com",
     source_code_link: "https://github.com/Anushka8178/Wanderlust_Full-Stack-Website/tree/wanderlust-main",
   },
   {
@@ -263,7 +263,7 @@ const projects = [
     ],
     image: weather,
     source_code_link: "https://github.com/Anushka8178/MaterialUI-Weather_Widget",
-    demo_link: "https://material-ui-weather-widget-25td.vercel.app/"
+    demo_link: "https://skytrackr-weather-widget-y17i.vercel.app/"
   },
   {
     name: "UrbanFlow: Streamlining City Life with Technology",
@@ -309,6 +309,28 @@ const projects = [
     image: nlp,
     
   },
+  {
+    name: "Smart Election System - Face Recognition Voting",
+    description: "A secure voting system using Python and face recognition for voter authentication and fraud prevention.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "green-text-gradient",
+      },
+      {
+        name: "facerecognition",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: election,
+    source_code_link: "https://github.com/Anushka8178/SmartElection",
+    
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
