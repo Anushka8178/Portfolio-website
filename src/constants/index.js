@@ -309,27 +309,6 @@ const projects = [
     image: nlp,
     
   },
-  {
-    name: "Smart Election System - Face Recognition Voting",
-    description: "A secure voting system using Python and face recognition for voter authentication and fraud prevention.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "opencv",
-        color: "green-text-gradient",
-      },
-      {
-        name: "facerecognition",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: election,
-    source_code_link: "https://github.com/Anushka8178/SmartElection",
-    
-  },
   
 ];
 
