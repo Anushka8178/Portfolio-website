@@ -216,7 +216,7 @@ const projects = [
       },
     ],
     image: wanderlust,
-    demo_link: "https://wanderlust-full-stack-website-8.onrender.com",
+    demo_link: "https://wanderlust-full-stack-website-9.onrender.com/listings",
     source_code_link: "https://github.com/Anushka8178/Wanderlust_Full-Stack-Website/tree/wanderlust-main",
   },
   {
