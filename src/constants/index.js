@@ -235,29 +235,29 @@ const projects = [
     source_code_link: "https://github.com/Anushka8178/Wanderlust_Full-Stack-Website/tree/wanderlust-main",
   },
   {
-    name: "LexiCourt – AI-Powered Legal Case Analyzer",
-    description: "A tool that leverages AI to quickly retrieve and analyze Indian court cases based on criteria like state, police station, and case number, providing insights into case background, summaries, and potential outcomes.",
+    name: "AI-Court – LegalBERT & NLP Judicial Case Analyzer",
+    description: "An AI & Applied NLP legal intelligence platform leveraging LegalBERT embeddings to analyze 53,000+ Indian court cases, predict trial outcomes, assess bail risks, and index IPC provisions.",
     tags: [
       {
-        name: "LegalBert",
+        name: "LegalBERT",
         color: "blue-text-gradient",
       },
       {
-        name: "TinyLlama",
+        name: "Applied NLP",
         color: "green-text-gradient",
       },
       {
-        name: "Steamlit UI",
-        color: "pink-text-gradient",
+        name: "TinyLlama",
+        color: "red-text-gradient",
       },
       {
-        name: "Machine Learning",
-        color: "red-text-gradient",
+        name: "Streamlit UI",
+        color: "pink-text-gradient",
       },
     ],
     image: court,
     source_code_link: "https://github.com/Anushka8178/AI-Court",
-
+    demo_link: "https://ai-court.streamlit.app/",
   },
   {
     name: "SkyTrackr - React Weather Widget",
