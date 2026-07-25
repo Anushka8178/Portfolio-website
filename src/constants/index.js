@@ -33,6 +33,10 @@ import {
     court,
     city,
     nlp,
+    algovisual,
+    drdo,
+    rumor_detection,
+    llm_eval,
     github
 } from "../assets";
   
@@ -148,7 +152,7 @@ const experiences = [
     date: "August 2023 - 2027",
     points: [
       "Currently pursuing my B.Tech in Computer Science and Engineering",
-      "GPA: 8.07",
+      "CGPA: 8.4",
     ],
   },
   {
@@ -163,7 +167,18 @@ const experiences = [
       "Completed AI mini project",
     ],
   },
-  
+  {
+    title: "Research Intern",
+    company_name: "NPOL, DRDO — Ministry of Defence, Govt. of India",
+    icon: drdo,
+    iconBg: "#383E56",
+    date: "Jun 2026 – Jul 2026",
+    points: [
+      "Working on defence-grade software at India's premier naval R&D lab.",
+      "Developing and evaluating algorithms in a high-reliability, resource-constrained environment.",
+      "Conducted rigorous debugging and performance analysis for real-world systems.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -294,22 +309,76 @@ const projects = [
     source_code_link: "https://github.com/Anushka8178/UrbanFlow",
   },
   {
-    name: "Research Paper on Relation Extraction",
-    description: "A study on relational extraction using the RAG approach and FLAN-T5 with the CONLL dataset to improve the extraction of meaningful relationships from structured text.",
+    name: "Improving Timeliness in Rumor Detection with Time-Aware Contrastive Learning",
+    description: "Designing a temporal contrastive learning framework for early-stage rumor detection on social media; evaluating on benchmark propagation datasets using temporal signal modeling.",
     tags: [
       {
-        name: "Retrieval Augmented Generation",
+        name: "contrastive-learning",
         color: "blue-text-gradient",
       },
       {
-        name: "Chain of Thought",
+        name: "rumor-detection",
         color: "green-text-gradient",
       },
+      {
+        name: "nlp",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "pytorch",
+        color: "red-text-gradient",
+      },
     ],
-    image: nlp,
-    
+    image: rumor_detection,
   },
-  
+  {
+    name: "Heuristic Evaluation Failures in Automated Code Generation Pipelines",
+    description: "Studying failure modes of small open-source LLMs on HumanEval, analyzing divergence between heuristic metrics and actual correctness to improve automated pipeline reliability.",
+    tags: [
+      {
+        name: "llm-evaluation",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "code-generation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "humaneval",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "python",
+        color: "red-text-gradient",
+      },
+    ],
+    image: llm_eval,
+  },
+  {
+    name: "AlgoVisualizer – Algorithm Visualizer",
+    description: "An interactive web platform designed to visualize sorting, searching, and graph algorithms step-by-step with interactive playback controls, streak tracking, and custom learning notes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "d3js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "red-text-gradient",
+      },
+    ],
+    image: algovisual,
+    demo_link: "https://algovisual-amber.vercel.app/",
+    source_code_link: "https://github.com/Anushka8178/algoVisualiser",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

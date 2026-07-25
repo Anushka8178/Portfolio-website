@@ -38,6 +38,10 @@ import weather from "./weather.jpg";
 import court from "./ai-court.jpg";
 import city from "./city.png"
 import nlp from "./nlp.jpeg"
+import algovisual from "./algovisual.png";
+import drdo from "./drdo.png";
+import rumor_detection from "./rumor_detection.png";
+import llm_eval from "./llm_eval.png";
 
 
 export {
@@ -79,5 +83,9 @@ export {
   court,
   city,
   nlp,
+  algovisual,
+  drdo,
+  rumor_detection,
+  llm_eval,
   demo
 };
